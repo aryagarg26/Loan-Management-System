@@ -1,0 +1,133 @@
+{
+  "loans": [
+    {
+      "id": "LN-2026-1007",
+      "ownerId": "borrower-demo",
+      "applicant": "Priya Sharma",
+      "phone": "9876543210",
+      "email": "priya.sharma@example.com",
+      "amount": 100000,
+      "purpose": "Vehicle",
+      "tenureMonths": 24,
+      "annualRate": 12,
+      "appliedDate": "2026-10-17",
+      "status": "Repaying",
+      "paidInstallments": 2,
+      "disbursedDate": "2026-10-17",
+      "createdAt": "2026-10-17T20:15:30.839Z"
+    },
+    {
+      "id": "LN-2026-1001",
+      "applicant": "Priya Sharma",
+      "phone": "9876543210",
+      "email": "priya.sharma@example.com",
+      "amount": 250000,
+      "purpose": "Education",
+      "tenureMonths": 36,
+      "annualRate": 12,
+      "appliedDate": "2026-10-09",
+      "status": "Under Review",
+      "paidInstallments": 0,
+      "disbursedDate": null,
+      "createdAt": "2026-10-09T10:00:00.000Z",
+      "ownerId": "borrower-demo"
+    },
+    {
+      "id": "LN-2026-1002",
+      "applicant": "Rohit Verma",
+      "phone": "9812345670",
+      "email": "rohit.verma@example.com",
+      "amount": 500000,
+      "purpose": "Business",
+      "tenureMonths": 60,
+      "annualRate": 11.5,
+      "appliedDate": "2026-10-07",
+      "status": "Repaying",
+      "paidInstallments": 8,
+      "disbursedDate": "2026-02-10",
+      "createdAt": "2026-10-07T08:20:00.000Z"
+    },
+    {
+      "id": "LN-2026-1003",
+      "applicant": "Ananya Patel",
+      "phone": "9898765432",
+      "email": "ananya.patel@example.com",
+      "amount": 150000,
+      "purpose": "Personal",
+      "tenureMonths": 24,
+      "annualRate": 13,
+      "appliedDate": "2026-10-05",
+      "status": "Approved",
+      "paidInstallments": 0,
+      "disbursedDate": null,
+      "createdAt": "2026-10-05T12:15:00.000Z"
+    },
+    {
+      "id": "LN-2026-1004",
+      "applicant": "Karan Mehta",
+      "phone": "9822012345",
+      "email": "",
+      "amount": 1200000,
+      "purpose": "Home",
+      "tenureMonths": 120,
+      "annualRate": 9.25,
+      "appliedDate": "2026-10-02",
+      "status": "Disbursed",
+      "paidInstallments": 0,
+      "disbursedDate": "2026-10-04",
+      "createdAt": "2026-10-02T06:30:00.000Z"
+    },
+    {
+      "id": "LN-2026-1005",
+      "applicant": "Neha Joshi",
+      "phone": "9890112233",
+      "email": "neha.joshi@example.com",
+      "amount": 80000,
+      "purpose": "Medical",
+      "tenureMonths": 12,
+      "annualRate": 10,
+      "appliedDate": "2026-09-28",
+      "status": "Submitted",
+      "paidInstallments": 0,
+      "disbursedDate": null,
+      "createdAt": "2026-09-28T07:05:00.000Z"
+    },
+    {
+      "id": "LN-2022-1006",
+      "applicant": "Aman Singh",
+      "phone": "9900011122",
+      "email": "aman.singh@example.com",
+      "amount": 320000,
+      "purpose": "Vehicle",
+      "tenureMonths": 48,
+      "annualRate": 10.75,
+      "appliedDate": "2022-08-01",
+      "status": "Closed",
+      "paidInstallments": 48,
+      "disbursedDate": "2022-08-15",
+      "createdAt": "2022-08-01T09:45:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "borrower-demo",
+      "username": "borrower",
+      "role": "borrower",
+      "name": "Priya Sharma",
+      "phone": "9876543210",
+      "email": "priya.sharma@example.com",
+      "passwordSalt": "7b97ce2c89cad67169a8b1bd2d8f3f07",
+      "passwordHash": "1b0acf5b827ab84849e49b88330a74c30ab6e15d09d30a5fd689022e8f783c03bec6dd735d053a67cf8a1c5a770c9336a581a15989d3c657b06455d49a143cab"
+    },
+    {
+      "id": "manager-demo",
+      "username": "manager",
+      "role": "manager",
+      "name": "Bank Manager",
+      "phone": "",
+      "email": "manager@loandesk.local",
+      "passwordSalt": "092cb15f8e757ef13f330fe300a1ebc8",
+      "passwordHash": "e6568b2edcf57f46d3ac096495769c3d8315b2f4cf3b9cb493be74c3126b9f4eb770140ca40ff523c9749f17c99d84cc63eadefa656828ee2cb23aa10523d01a"
+    }
+  ]
+}

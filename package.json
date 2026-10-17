@@ -1,0 +1,9 @@
+{
+  "name": "loandesk-loan-management-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple single-page loan management dashboard backed by a local JSON file, with no database.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
